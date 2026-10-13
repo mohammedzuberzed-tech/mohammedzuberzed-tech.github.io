@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="A data path from a sensor through a phone and the cloud to a reorder, with a fifteen minute check marked">
+  <defs><pattern id="g" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#121212" stroke-opacity=".08" stroke-width="1"/></pattern></defs>
+  <rect width="800" height="500" fill="#F7F5EF"/>
+  <rect width="800" height="500" fill="url(#g)"/>
+  <g fill="none" stroke="#121212" stroke-width="3" stroke-linejoin="round">
+    <path d="M90 300H190L250 240H330L390 300H470L530 240H610L670 300H730"/>
+  </g>
+  <g fill="#F7F5EF" stroke="#121212" stroke-width="3">
+    <circle cx="90" cy="300" r="18"/><circle cx="250" cy="240" r="18"/><circle cx="390" cy="300" r="18"/>
+    <circle cx="530" cy="240" r="18"/><circle cx="670" cy="300" r="18"/>
+  </g>
+  <circle cx="390" cy="300" r="18" fill="#FF4B1F" stroke="#121212" stroke-width="3"/>
+  <g font-family="IBM Plex Mono, ui-monospace, monospace" font-size="14" letter-spacing="1.5" fill="#121212" text-anchor="middle">
+    <text x="90" y="346">SENSOR</text><text x="250" y="204">PHONE</text><text x="390" y="346">CLOUD</text>
+    <text x="530" y="204">THRESHOLD</text><text x="670" y="346">REORDER</text>
+  </g>
+  <g font-family="IBM Plex Mono, ui-monospace, monospace" font-size="14" letter-spacing="1.5">
+    <text x="48" y="64" fill="#121212" fill-opacity=".7">CHECKED EVERY 15 MIN</text>
+    <rect x="48" y="396" width="304" height="40" fill="none" stroke="#121212" stroke-width="2"/>
+    <text x="64" y="422" fill="#121212">LAST UPDATED 2 HOURS AGO</text>
+  </g>
+</svg>

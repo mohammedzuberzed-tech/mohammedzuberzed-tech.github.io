@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Seven LEDs in different colours and patterns on a dark panel, with the words No screen">
+  <defs>
+    <pattern id="g" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity=".07" stroke-width="1"/></pattern>
+    <filter id="b" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="9"/></filter>
+  </defs>
+  <rect width="800" height="500" fill="#121212"/>
+  <rect width="800" height="500" fill="url(#g)"/>
+  <g font-family="IBM Plex Mono, ui-monospace, monospace" font-size="15" letter-spacing="2" fill="#EDEAE2" fill-opacity=".7">
+    <text x="48" y="64">NO SCREEN</text>
+    <text x="48" y="452">LIGHT · VIBRATION · ONE BUTTON</text>
+  </g>
+  <g transform="translate(0 250)">
+    <g fill="#EDEAE2"><circle cx="110" cy="0" r="22"/><circle cx="110" cy="0" r="22" filter="url(#b)" opacity=".6"/></g>
+    <g fill="#F2A33A"><circle cx="210" cy="0" r="22"/><circle cx="210" cy="0" r="22" filter="url(#b)" opacity=".6"/></g>
+    <g fill="#4F8CFF"><circle cx="310" cy="0" r="22"/><circle cx="310" cy="0" r="22" filter="url(#b)" opacity=".6"/></g>
+    <g fill="#4F8CFF" opacity=".35"><circle cx="410" cy="0" r="22"/></g>
+    <g fill="#EDEAE2"><circle cx="510" cy="0" r="22"/><circle cx="510" cy="0" r="22" filter="url(#b)" opacity=".5"/></g>
+    <g fill="#F2A33A"><circle cx="610" cy="0" r="22"/><circle cx="610" cy="0" r="22" filter="url(#b)" opacity=".6"/></g>
+    <g fill="#FF4B1F"><circle cx="710" cy="0" r="22"/><circle cx="710" cy="0" r="22" filter="url(#b)" opacity=".7"/></g>
+  </g>
+  <g stroke="#EDEAE2" stroke-opacity=".5" stroke-width="2" fill="none"><path d="M110 330v22M210 330v22M310 330v22M410 330v22M510 330v22M610 330v22M710 330v22"/></g>
+</svg>
